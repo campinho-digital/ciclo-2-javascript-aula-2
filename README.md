@@ -10,6 +10,8 @@ Neste exemplo, demonstraremos como trocar valores entre variáveis em JavaScript
 
 ## Passos
 
+Cada participante adicionará uma variável, modificando o código anterior.
+
 ```javascript
 var valorA = "Maçã";
 
