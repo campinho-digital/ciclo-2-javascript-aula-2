@@ -1,4 +1,4 @@
-Neste exemplo, demonstraremos como trocar valores entre variáveis em JavaScript sem usar uma variável temporária.
+Neste exemplo, demonstraremos como trocar valores entre variáveis em JavaScript.
 
 ## Instruções
 
