@@ -16,7 +16,7 @@ var valorA = "Maçã";
 // Participante B
 var valorB = "Banana";
 
-// Troca de valores sem variável temporária
+// Resultado Final
 valorFinal = valorA + valorB;
 console.log(valorFinal)
 ```
