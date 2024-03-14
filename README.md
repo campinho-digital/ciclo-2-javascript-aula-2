@@ -10,8 +10,8 @@ Neste exemplo, demonstraremos como trocar valores entre variáveis em JavaScript
 
 ## Passos
 
-- Cada participante deverá responder às questões propostas individualmente e enviá las no moodle
+- Cada participante deverá responder às questões propostas individualmente, usar o git para versionar o código, commit, push etc
+- Seu repositório forkado com as questões respondidas deve ser enviado no moodle
 - Lembre - se de responder utilizando comentarios no javascript
-- Lembre - se de descomentar o console.log da questão que está resolvendo para que assim consiga debugar melhor o código e comentá-la antes de seguir para a questão seguinte para não se perder com os logs.
-
+- Lembre - se de descomentar o console.log da questão que está resolvendo para que assim consiga debugar melhor o código.
 
