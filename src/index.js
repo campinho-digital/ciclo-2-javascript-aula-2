@@ -57,4 +57,16 @@ let y = 20;
 // console.log(y); 
 
 
+//// Escreva um programa que print a primeira letra dessa variavel 
+let nomeCompleto = 'eduardo'
+
+//sua lógica para pegar a primeira letra 
+/// const letraInicial = ...
+//console.log(letraInicial)
+
+
+
+
+
+
 
