@@ -26,7 +26,7 @@ console.log("A área da parede é:");
 
 // Nome e sobrenome inseridos pelo usuário
 var nome = "João";
-let sobrenome = "Silva";
+var sobrenome = "Silva";
 
 // Juntando os nomes com a mensagem de boas-vindas
   
@@ -47,7 +47,7 @@ console.log();
 // considerando que todos os anos têm 365 dias.
 
 // Idade do funcionário em anos
-let idadeEmAnos = 30;
+var idadeEmAnos = 30;
 
 // Calculando anos em dias
   
@@ -68,7 +68,7 @@ console.log("O funcionário viveu aproximadamente... dias");
 //  se o evento durou 135 minutos, você deve dizer que ele durou 2 horas e 15 minutos.
 
 // Duração total do evento em minutos
-let duracaoEmMinutos = 135;
+var duracaoEmMinutos = 135;
 
 // Calculando horas e minutos
   
