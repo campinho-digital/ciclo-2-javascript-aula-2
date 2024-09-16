@@ -11,9 +11,10 @@ var largura = 5;
 var altura = 4;
 
 // Calculando a área da parede
+var area = largura * altura;
 
 // Exibindo o resultado no console
-console.log("A área da parede é:");
+console.log("A área da parede é: " + area + " metros quadrados.");
 
 //-------------------------------------------------------------------------------------------------
 
@@ -31,9 +32,10 @@ var sobrenome = "Silva";
 // Juntando os nomes com a mensagem de boas-vindas
   
        //seu código
+var nomeCompleto = nome +" "+ sobrenome       
 
 // Exibindo a mensagem no console
-console.log();
+console.log("Seja bem-vindo "+ nomeCompleto +"!");
 
 
 //-------------------------------------------------------------------------------------------------
@@ -46,16 +48,28 @@ console.log();
 // O funcionário informa sua idade em anos, e você deve converter esse valor para dias,
 // considerando que todos os anos têm 365 dias.
 
-// Idade do funcionário em anos
+// Idade do funcionário em anos - Resposta 1
 var idadeEmAnos = 30;
 
 // Calculando anos em dias
   
       //seu código
-
+var diasVividos = idadeEmAnos * 365;
 
 // Exibindo o resultado no console
-console.log("O funcionário viveu aproximadamente... dias");
+console.log("O funcionário viveu aproximadamente "+ diasVividos +" dias.");
+
+// Idade do funcionário em anos - Resposta 2
+var idadeEmAnos = 30;
+var diasAno = 365;
+
+// Calculando anos em dias
+  
+      //seu código
+var diasVividos = idadeEmAnos * diasAno;
+
+// Exibindo o resultado no console
+console.log("O funcionário viveu aproximadamente "+ diasVividos +" dias.");
 
 //-------------------------------------------------------------------------------------------------
 
@@ -73,7 +87,12 @@ var duracaoEmMinutos = 135;
 // Calculando horas e minutos
   
       //seu código
+// Calculando horas      
+var duracaoEmHoras = Math.floor(duracaoEmMinutos / 60);
 
+//Calculando minutos restantes
+var minutosRestantes = duracaoEmMinutos % 60;
 
 // Exibindo o resultado no console
-console.log("O evento durou ...horas e ... minutos.");
+console.log("O evento durou "+ duracaoEmHoras +" horas e "+ minutosRestantes +" minutos.");
+
