@@ -63,3 +63,10 @@ npm start
 
 O código será executado, e você poderá ver a saída do `console.log` no terminal.
 
+6. Versionamento com Git
+Depois de responder às questões e adicionar comentários ao código, você precisa versionar essas alterações usando o Git.
+
+7. Enviar o Repositório para o Moodle
+
+Você deve enviar o link do repositório com as questões respondidas para o Moodle, para que o instrutor possa revisar o seu trabalho. O link do GitHub facilita o acesso ao código e também permite que o instrutor veja todo o histórico de commits (versões anteriores do código), o que é útil para acompanhar seu progresso.
+
