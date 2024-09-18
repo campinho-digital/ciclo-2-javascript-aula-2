@@ -12,7 +12,9 @@ var altura = 4;
 var area = largura * altura;
 
 // Calculando a área da parede
-
+            // Criei uma variavel que recebe os valores de largura e altura das variaveis
+            // e multiplica os valores
+            // depois disso concatenei os valores a frase do concolse log
 // Exibindo o resultado no console
 console.log("A área da parede é: " + area);
 
@@ -32,7 +34,7 @@ var sobrenome = "Silva";
 // Juntando os nomes com a mensagem de boas-vindas
   
        //seu código
-
+            //concatenei nome e sobrenome na frase
 // Exibindo a mensagem no console
 console.log(`Boas vindas ${nome} ${sobrenome}`);
 
@@ -53,6 +55,8 @@ var idadeEmAnos = 30;
 // Calculando anos em dias
   
       //seu código
+            //Criei uma variadel que recebe o valor da variavel idadeEmAnos e multiplica 
+            //pelos dias que contem um ano
 var dias = idadeEmAnos * 365;
 
 // Exibindo o resultado no console
@@ -79,3 +83,4 @@ var minutos = duracaoEmMinutos % 60
 
 // Exibindo o resultado no console
 console.log(`O evento durou ${duracaoEmHoras} horas e ${minutos} minutos.`);
+
