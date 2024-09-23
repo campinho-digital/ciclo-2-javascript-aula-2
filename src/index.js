@@ -10,12 +10,18 @@
 var largura = 5;
 var altura = 4;
 
+
 // Calculando a área da parede
 
 // Exibindo o resultado no console
-console.log("A área da parede é:");
 
+
+const comprimento = 5;
+const diametro = 4;
+const calculando = comprimento * diametro;
+console.log(`A área da parede é : ${calculando} metros quadrados.`);
 //-------------------------------------------------------------------------------------------------
+
 
 // Desafio 2
 
@@ -28,18 +34,23 @@ console.log("A área da parede é:");
 var nome = "João";
 var sobrenome = "Silva";
 
+
 // Juntando os nomes com a mensagem de boas-vindas
-  
+   
        //seu código
 
 // Exibindo a mensagem no console
-console.log();
 
 
-//-------------------------------------------------------------------------------------------------
+const primeironome = "Carla";
+const segundonome = "Monique";
+const nomeComlpeto = primeironome + segundonome;
+console.log(primeironome + segundonome)
+
+//------------------------------------------------------------------------------------------------
 
 
-//Desafio 3
+//Desafio 
 
 // Você está trabalhando no departamento de recursos humanos de uma empresa, e precisa
 // calcular quantos dias um funcionário já viveu até agora, com base na idade informada.
@@ -47,7 +58,6 @@ console.log();
 // considerando que todos os anos têm 365 dias.
 
 // Idade do funcionário em anos
-var idadeEmAnos = 30;
 
 // Calculando anos em dias
   
@@ -55,7 +65,11 @@ var idadeEmAnos = 30;
 
 
 // Exibindo o resultado no console
-console.log("O funcionário viveu aproximadamente... dias");
+
+const idadeDeVida = 30;
+const diasEmIdade = 365;
+const calcular = idadeDeVida * diasEmIdade;
+console.log(` O funcionário viveu aproximadamente ${calcular} dias`);
 
 //-------------------------------------------------------------------------------------------------
 
@@ -67,8 +81,7 @@ console.log("O funcionário viveu aproximadamente... dias");
 // converter esse valor em horas e minutos para gerar um relatório. Por exemplo,
 //  se o evento durou 135 minutos, você deve dizer que ele durou 2 horas e 15 minutos.
 
-// Duração total do evento em minutos
-var duracaoEmMinutos = 135;
+// Duração total do evento em minutos 135 minutos
 
 // Calculando horas e minutos
   
@@ -76,4 +89,8 @@ var duracaoEmMinutos = 135;
 
 
 // Exibindo o resultado no console
-console.log("O evento durou ...horas e ... minutos.");
+const duracaoEmMinutos = 135;
+const Horas = Math.floor (duracaoEmMinutos / 60);
+const Minutos = duracaoEmMinutos % 60;
+console.log (`O evento durou ${Horas}horas e minutos ${Minutos}.`);
+
