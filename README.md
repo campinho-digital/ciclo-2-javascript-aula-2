@@ -6,7 +6,7 @@
      
 #### Como forkar?
 
-Faça o fork desse repo: [https://github.com/campinho-digital/Como-fazer-um-Fork](https://github.com/campinho-digital/Como-fazer-um-Fork)  
+[LINK DO TUTORIAL DO FORK](https://github.com/campinho-digital/Como-fazer-um-Fork)
 
 
 2. Após o Fork
