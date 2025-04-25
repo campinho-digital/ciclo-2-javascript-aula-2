@@ -10,10 +10,11 @@
 var largura = 5;
 var altura = 4;
 
-// Calculando a área da parede
+// Calculando a área da parede através da fórmula
+let areaParede = largura * altura
 
 // Exibindo o resultado no console
-console.log("A área da parede é:");
+console.log(`A área da parede é: ${areaParede} metros`);
 
 //-------------------------------------------------------------------------------------------------
 
@@ -29,11 +30,12 @@ var nome = "João";
 var sobrenome = "Silva";
 
 // Juntando os nomes com a mensagem de boas-vindas
-  
+
        //seu código
+       let nomeCompleto = nome + sobrenome
 
 // Exibindo a mensagem no console
-console.log();
+console.log(`Seja bem vindo! ${nomeCompleto}`);
 
 
 //-------------------------------------------------------------------------------------------------
