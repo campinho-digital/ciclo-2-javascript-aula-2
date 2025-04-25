@@ -32,7 +32,7 @@ var sobrenome = "Silva";
 // Juntando os nomes com a mensagem de boas-vindas
 
        //seu código
-       let nomeCompleto = nome + sobrenome
+       let nomeCompleto = nome + " " + sobrenome //Concatenação do nome e sobrenome
 
 // Exibindo a mensagem no console
 console.log(`Seja bem vindo! ${nomeCompleto}`);
@@ -54,10 +54,10 @@ var idadeEmAnos = 30;
 // Calculando anos em dias
   
       //seu código
-
+      let idadeEmDias = 30 * 365 //Cálculo para descobrir a idade em dias
 
 // Exibindo o resultado no console
-console.log("O funcionário viveu aproximadamente... dias");
+console.log(`O funcionário viveu aproximadamente ${idadeEmDias} dias`);
 
 //-------------------------------------------------------------------------------------------------
 
@@ -75,7 +75,11 @@ var duracaoEmMinutos = 135;
 // Calculando horas e minutos
   
       //seu código
-
+      numeroDeHoras = 0 //Inicializando o número de horas com zero para se somar no loop
+      while(duracaoEmMinutos >= 60){
+            duracaoEmMinutos = duracaoEmMinutos - 60
+            numeroDeHoras += 1
+      }
 
 // Exibindo o resultado no console
-console.log("O evento durou ...horas e ... minutos.");
+console.log(`O evento durou ${numeroDeHoras} horas ${duracaoEmMinutos} minutos.`)
