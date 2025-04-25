@@ -10,10 +10,11 @@
 var largura = 5;
 var altura = 4;
 
-// Calculando a área da parede
+// Calculando a área da parede através da fórmula
+let areaParede = largura * altura
 
 // Exibindo o resultado no console
-console.log("A área da parede é:");
+console.log(`A área da parede é: ${areaParede} metros`);
 
 //-------------------------------------------------------------------------------------------------
 
@@ -29,11 +30,12 @@ var nome = "João";
 var sobrenome = "Silva";
 
 // Juntando os nomes com a mensagem de boas-vindas
-  
+
        //seu código
+       let nomeCompleto = nome + " " + sobrenome //Concatenação do nome e sobrenome
 
 // Exibindo a mensagem no console
-console.log();
+console.log(`Seja bem vindo! ${nomeCompleto}`);
 
 
 //-------------------------------------------------------------------------------------------------
@@ -52,10 +54,10 @@ var idadeEmAnos = 30;
 // Calculando anos em dias
   
       //seu código
-
+      let idadeEmDias = 30 * 365 //Cálculo para descobrir a idade em dias
 
 // Exibindo o resultado no console
-console.log("O funcionário viveu aproximadamente... dias");
+console.log(`O funcionário viveu aproximadamente ${idadeEmDias} dias`);
 
 //-------------------------------------------------------------------------------------------------
 
@@ -73,7 +75,11 @@ var duracaoEmMinutos = 135;
 // Calculando horas e minutos
   
       //seu código
-
+      numeroDeHoras = 0 //Inicializando o número de horas com zero para se somar no loop
+      while(duracaoEmMinutos >= 60){
+            duracaoEmMinutos = duracaoEmMinutos - 60 //Convertendo o número de minutos em hora (o intuito é no final do loop sobrar apenas o tempo em minutos menor que 1 hora)
+            numeroDeHoras += 1 //Como 60 minutos é equivalente a 1 hora a cada 60 minuto é adicionado uma hora no mesmo loop
+      }
 
 // Exibindo o resultado no console
-console.log("O evento durou ...horas e ... minutos.");
+console.log(`O evento durou ${numeroDeHoras} horas ${duracaoEmMinutos} minutos.`)
