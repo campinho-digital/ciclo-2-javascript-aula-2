@@ -77,8 +77,8 @@ var duracaoEmMinutos = 135;
       //seu código
       numeroDeHoras = 0 //Inicializando o número de horas com zero para se somar no loop
       while(duracaoEmMinutos >= 60){
-            duracaoEmMinutos = duracaoEmMinutos - 60
-            numeroDeHoras += 1
+            duracaoEmMinutos = duracaoEmMinutos - 60 //Convertendo o número de minutos em hora (o intuito é no final do loop sobrar apenas o tempo em minutos menor que 1 hora)
+            numeroDeHoras += 1 //Como 60 minutos é equivalente a 1 hora a cada 60 minuto é adicionado uma hora no mesmo loop
       }
 
 // Exibindo o resultado no console
