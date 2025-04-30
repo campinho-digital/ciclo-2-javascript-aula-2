@@ -11,10 +11,13 @@ var largura = 5;
 var altura = 4;
 
 // Calculando a área da parede
+var area = largura * altura;
 
-// Exibindo o resultado no console
-console.log("A área da parede é:");
+// Exibindo o resultado no console 
 
+//console.log("A área da parede é :" + area");  com essa linha nao funciona, nao sei o motivo. poderia me ajudar? sou o carlos
+
+console.log(`A área da parede é : ${area}.`);
 //-------------------------------------------------------------------------------------------------
 
 // Desafio 2
@@ -29,11 +32,12 @@ var nome = "João";
 var sobrenome = "Silva";
 
 // Juntando os nomes com a mensagem de boas-vindas
-  
-       //seu código
+
+       //seu código 
+ var miku = (`Bem vindo: ${nome} ${sobrenome}`);
 
 // Exibindo a mensagem no console
-console.log();
+console.log(miku + ".");
 
 
 //-------------------------------------------------------------------------------------------------
@@ -51,11 +55,12 @@ var idadeEmAnos = 30;
 
 // Calculando anos em dias
   
-      //seu código
 
+        //seu código
+var dias = idadeEmAnos * 365;
 
 // Exibindo o resultado no console
-console.log("O funcionário viveu aproximadamente... dias");
+console.log(`O funcionário viveu aproximadamente ${dias} dia.`);
 
 //-------------------------------------------------------------------------------------------------
 
@@ -72,8 +77,10 @@ var duracaoEmMinutos = 135;
 
 // Calculando horas e minutos
   
-      //seu código
+      //seu código 
+var horas = Math.floor(duracaoEmMinutos / 60); 
 
+var minutosrestantes = duracaoEmMinutos % 60;
 
 // Exibindo o resultado no console
-console.log("O evento durou ...horas e ... minutos.");
+console.log(`O evento durou ${horas} horas e ${minutosrestantes} minutos.`);
