@@ -10,10 +10,14 @@
 var largura = 5;
 var altura = 4;
 
+
 // Calculando a área da parede
+
+var area = largura * altura;
 
 // Exibindo o resultado no console
 console.log("A área da parede é:");
+console.log(area)
 
 //-------------------------------------------------------------------------------------------------
 
@@ -26,14 +30,18 @@ console.log("A área da parede é:");
 
 // Nome e sobrenome inseridos pelo usuário
 var nome = "João";
-var sobrenome = "Silva";
+var sobrenome = " Silva";
 
 // Juntando os nomes com a mensagem de boas-vindas
   
        //seu código
+var Nome_completo = nome + sobrenome
+
 
 // Exibindo a mensagem no console
-console.log();
+console.log("Bem vindo:");
+console.log (Nome_completo)
+
 
 
 //-------------------------------------------------------------------------------------------------
@@ -49,13 +57,22 @@ console.log();
 // Idade do funcionário em anos
 var idadeEmAnos = 30;
 
+
 // Calculando anos em dias
-  
+var ano = 365
+
+var idadeEmDias = ano * idadeEmAnos
+
+
       //seu código
 
 
 // Exibindo o resultado no console
-console.log("O funcionário viveu aproximadamente... dias");
+
+
+console.log("O funcionário viveu aproximadamente") 
+console.log(idadeEmDias) 
+console.log("dias"); 
 
 //-------------------------------------------------------------------------------------------------
 
@@ -73,7 +90,13 @@ var duracaoEmMinutos = 135;
 // Calculando horas e minutos
   
       //seu código
+      var duracaoEmMinutos = 135;
 
+      var horas = Math.floor(duracaoEmMinutos / 60);
+      var minutos = duracaoEmMinutos % 60;
+      
+      
+      
 
 // Exibindo o resultado no console
-console.log("O evento durou ...horas e ... minutos.");
+console.log("O evento durou " + horas + " horas e " + minutos + " minutos.");
